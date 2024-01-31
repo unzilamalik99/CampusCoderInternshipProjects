@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #4c87a3, #34495e); /* Gradient background using blue and gray shades */
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #3498db, #2980b9); /* Gradient header background using blue shades */
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+}
+
+/* ... (rest of your existing styles) ... */
+
+
+.quiz-container {
+    width: 40%; /* Slightly wider container */
+    /* margin: 350px; */
+    padding: 20px ;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.question-container {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap for better separation */
+}
+
+.answer-button {
+    padding: 15px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.answer-button:hover {
+    background-color: #2978a0; /* Darker blue on hover */
+    color: #fff;
+}
+.start-button{
+    margin-top: 20px;
+    padding: 20px 60px;
+    background-color: #27aea7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-ou
+}
+.next-button {
+    margin-top: 20px;
+    padding: 20px 60px;
+    background-color: #27aea7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.next-button:hover {
+    background-color: #18aea7;
+}
+
+.timer-container,
+.score-container,
+.final-score,
+.reward-container {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.final-score {
+    color: #000000;
+    font-weight: bold;
+}
+
+.reward-container {
+    color: #064b66;
+    font-size: 1.2em; /* Larger font size */
+    font-weight: 600; /* Increased font weight */
+}
