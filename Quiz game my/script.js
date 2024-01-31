@@ -7,7 +7,7 @@ const questionContainer = document.getElementById("question-container");
 const timerContainer = document.getElementById("timer-container");
 const scoreContainer = document.getElementById("score-container");
 
-// startButton.addEventListener("click", startGame);
+
 
 // Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray(array) {
