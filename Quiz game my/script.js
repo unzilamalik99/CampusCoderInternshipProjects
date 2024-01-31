@@ -179,9 +179,9 @@ function nextQuestion() {
   }
 }
 
-// ... (previous code remains unchanged)
 
-let timerInterval; // Variable to store the interval reference
+
+let timerInterval; 
 
 function startQuizTimer() {
   let timeLeft = quizDuration;
@@ -189,7 +189,7 @@ function startQuizTimer() {
   timerInterval = setInterval(() => {
     timeLeft--;
 
-    // Update the timer display
+  
     timerContainer.innerText = `Time Left: ${timeLeft} seconds`;
 
     if (timeLeft <= 0) {
